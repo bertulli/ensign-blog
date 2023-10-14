@@ -1,8 +1,10 @@
 #+hugo_base_dir: ../
 #+cite_export: biblatex
 
-* TODO My first post                                        :tag1:@category1:
+* My first post                                             :tag1:@category1:
 :PROPERTIES:
 :EXPORT_FILE_NAME: my-first-post
 :END:
-This is my post body
+This is my post body, Another test. And another.
+
+Now, let's see what happens.
