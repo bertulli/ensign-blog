@@ -1,0 +1,13 @@
+#+hugo_base_dir: ../
+#+cite_export: biblatex
+
+* Bazel first post                                          :bazel:programming:build_system:
+:PROPERTIES:
+:EXPORT_FILE_NAME: bazel-first-post
+:END:
+This is my post body.
+
+Now, let's see what happens.
+
+** Second section
+Hi, this is the second section
