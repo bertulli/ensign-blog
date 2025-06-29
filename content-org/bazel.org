@@ -1,5 +1,6 @@
 #+hugo_base_dir: ../
 #+cite_export: biblatex
+#+date: 2025-06-29
 
 * Bazel first post                                          :bazel:programming:build_system:
 :PROPERTIES:

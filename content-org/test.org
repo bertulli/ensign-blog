@@ -1,5 +1,6 @@
 #+hugo_base_dir: ../
 #+cite_export: biblatex
+#+date: 2025-06-28
 
 * My first post                                             :tag1:@category1:
 :PROPERTIES:
