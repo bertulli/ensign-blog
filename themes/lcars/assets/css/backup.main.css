@@ -1,0 +1,35 @@
+body {
+  color: whitesmoke;
+  font-family: sans-serif;
+  line-height: 1.5;
+  /* margin: 10rem; */
+  margin: 10rem auto;
+  max-width: 768px;
+  background-color: black;
+
+  border-radius: 100px;
+  border-left-color: orange;
+
+  border-left: solid;
+  padding-left: 100px;
+
+  border-top: solid;
+  padding-top: 50px;
+  border-bottom: solid;
+  padding-bottom: 50px;
+}
+
+header {
+  border-bottom: 1px solid #222;
+  margin-bottom: 1rem;
+}
+
+footer {
+  border-top: 1px solid #222;
+  margin-top: 1rem;
+}
+
+a {
+  color: aqua;
+  text-decoration: none;
+}
