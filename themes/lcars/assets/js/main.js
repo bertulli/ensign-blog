@@ -1,6 +1,7 @@
 document.addEventListener("touchstart", function() {},false);
 let mybutton = document.getElementById("topBtn");
 window.onscroll = function() {scrollFunction()};
+mybutton.onclick = function() {topFunction()};
 function scrollFunction() {
   if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
     mybutton.style.display = "block";
