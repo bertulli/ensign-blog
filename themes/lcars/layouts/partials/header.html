@@ -275,11 +275,14 @@
 	  <div class="dc-row-7">2103</div>
 	</div>
       </div>	<!-- /data-cascade-wrapper -->				
-      <nav> 
+      <nav>
+	{{ range .Site.Menus.main }}
+	<a href="{{ .URL | relURL }}">{{ .Name }}</a>
 	<!-- <a href="">01</a> -->
 	<!-- <a href="">02</a> -->
 	<!-- <a href="">03</a> -->
 	<!-- <a href="">04</a> -->
+	{{ end }}
       </nav>
     </div>
     <div class="bar-panel first-bar-panel">
