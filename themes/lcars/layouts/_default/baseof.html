@@ -1,17 +1,48 @@
 <!DOCTYPE html>
 <html lang="{{ or site.Language.LanguageCode site.Language.Lang }}" dir="{{ or site.Language.LanguageDirection `ltr` }}">
-<head>
-  {{ partial "head.html" . }}
-</head>
-<body>
-  <header>
-    {{ partial "header.html" . }}
-  </header>
-  <main>
-    {{ block "main" . }}{{ end }}
-  </main>
-  <footer>
-    {{ partial "footer.html" . }}
-  </footer>
-</body>
+  <head>
+    {{ partial "head.html" . }}
+  </head>
+  <body>
+    <section class="wrap-standard" id="column-3">
+      <!-- <header> -->
+	{{ partial "header.html" . }}
+	<!-- </header> -->
+      <div class="wrap" id="gap">
+	<div class="left-frame">
+	  <button onclick="topFunction()" id="topBtn"><span class="hop">screen</span> top</button>
+	  <div>
+	    <div class="panel-3">03<span class="hop">-111968</span></div>
+	    <div class="panel-4">04<span class="hop">-041969</span></div>
+	    <div class="panel-5">05<span class="hop">-1701D</span></div>
+	    <div class="panel-6">06<span class="hop">-071984</span></div>
+	    <div class="panel-7">07<span class="hop">-081940</span></div>
+	    <div class="panel-8">08<span class="hop">-47148</span></div>
+	    <div class="panel-9">09<span class="hop">-081966</span></div>
+	  </div>
+	  <div>
+	    <div class="panel-10">10<span class="hop">-31</span></div>
+	  </div>
+	</div>
+	<div class="right-frame">
+	  <div class="bar-panel">
+	    <div class="bar-6"></div>
+	    <div class="bar-7"></div>
+	    <div class="bar-8"></div>
+	    <div class="bar-9"></div>
+	    <div class="bar-10"></div>
+	  </div>
+	  <main>
+	    {{ block "main" . }}{{ end }}
+	  </main>
+	  <footer>
+	    {{ partial "footer.html" . }}
+	  </footer>
+	</div>
+	</div>
+    </section>
+    <script type="text/javascript" src="assets/js/main.js"></script>
+    <div class="headtrim"> </div>
+    <div class="baseboard"> </div>
+  </body>
 </html>
