@@ -1,6 +1,8 @@
-baseURL = "https://yoursite.example.com/"
-title = "Ensign blog"
+baseURL = "https://bertulli.github.io/ensign-blog/"
+title = "Ensign's blog"
 # footnoteReturnLinkContents = "↩"
+
+theme = 'lcars'
 
 # [permalinks]
 # note = "/note/:year/:month/:day/:slug/"
