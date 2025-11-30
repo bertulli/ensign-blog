@@ -929,6 +929,7 @@ a:active {
 	padding-bottom: .75rem;
 	border-bottom: var(--panel-border);
 	text-decoration: none;
+	text-transform: uppercase;
 	color: black;
 	-webkit-touch-callout: none; 
 	-webkit-user-select: none; 
