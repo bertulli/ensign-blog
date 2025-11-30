@@ -1311,7 +1311,7 @@ nav {
 	display: flex;
 	flex-wrap: wrap;
 	align-self: center;	
-	width: calc(var(--nav-width) + var(--nav-width) + 1rem);
+	/* width: calc(var(--nav-width) + var(--nav-width) + 1rem); */
 	justify-content: flex-end;
 	column-gap: .5rem;
 	row-gap: .65rem;
