@@ -2,7 +2,7 @@
 #+cite_export: biblatex
 #+date: 2025-06-28
 
-* My first post                                             :tag1:@category1:
+* My first post                                                  :@tests:
 :PROPERTIES:
 :EXPORT_FILE_NAME: my-first-post
 :END:

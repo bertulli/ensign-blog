@@ -2,7 +2,7 @@
 #+cite_export: biblatex
 #+date: 2025-06-29
 
-* Bazel first post                                          :bazel:programming:build_system:
+* Bazel first post                                          :@tutorials:bazel:programming:build_system:
 :PROPERTIES:
 :EXPORT_FILE_NAME: bazel-first-post
 :END:
