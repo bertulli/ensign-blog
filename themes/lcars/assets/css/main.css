@@ -1003,6 +1003,14 @@ a:active {
 	text-decoration: none;
 }
 
+.header-button-group {
+	/* display: flex; */
+	justify-content: flex-end;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	padding-left: 30px;
+}
+
 .data-cascade-button-group	{
 	display: flex;
 	justify-content: flex-end;
